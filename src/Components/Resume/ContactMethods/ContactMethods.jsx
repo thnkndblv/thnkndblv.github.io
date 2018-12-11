@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ContactMethods.scss'
+import './ContactMethods.scss';
 
 const ContactMethods = ({ phone, email, address, linkedin }) => (
   <div>
