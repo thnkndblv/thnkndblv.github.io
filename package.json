@@ -4,9 +4,8 @@
   "description": "Resume",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack -d --watch",
-    "build": "webpack -p"
+    "dev": "webpack --mode development -w",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -31,6 +30,11 @@
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
     "webpack-cli": "^3.1.2"
   }
 }

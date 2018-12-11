@@ -1,0 +1,23 @@
+{
+  "name": "Manuel Morales Vasquez",
+  "position": "Staff Software Engineer",
+  "contact": {
+    "email": "manuel.cpp@gmail.com",
+    "phone": "+5213319863662",
+    "address": "Guadalajara, MX",
+    "linkedin": "https://www.linkedin.com/in/thnkndblv"
+  },
+  "skills": [
+    "Ruby",
+    "Ruby on Rails",
+    "JavaScript",
+    "React",
+    "Angular",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Ansible",
+    "AWS",
+    "RESTful API"
+  ]
+}
