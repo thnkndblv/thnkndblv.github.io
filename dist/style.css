@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+.resume__contact {
+  font-size: 14px;
+  text-align: right;
+  padding: 10px 0; }
+
 html,
 body {
   height: 100%;
@@ -194,11 +199,6 @@ body {
 .header--position {
   text-transform: uppercase;
   color: #bda772; }
-
-.contact {
-  font-size: 14px;
-  text-align: right;
-  padding: 10px 0; }
 
 .skill {
   background-color: #bda772;
