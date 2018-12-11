@@ -1,0 +1,52 @@
+@import 'vendor/simple-grid';
+
+@import 'colors';
+
+body {
+  background-color: $pageBgColor;
+  font-size: 12px;
+}
+
+.resume {
+  margin-top: 100px;
+}
+
+.resume--header {
+  padding: 25px 0;
+  text-align: center;
+  letter-spacing: 10px;
+
+  background-color: $resumeHeaderBgColor;
+}
+
+.resume--content {
+  background-color: $resumeContentBgColor;
+}
+
+.resume--content__right {
+  margin-left: 2px $textColor;
+}
+
+.header--name {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: $textColor;
+}
+
+.header--position {
+  text-transform: uppercase;
+  color: $textColor;
+}
+
+.contact {
+  font-size: 14px;
+  text-align: right;
+  padding: 10px 0;
+}
+
+.skill {
+  background-color: $textColor;
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+}
